@@ -1,6 +1,6 @@
 <script>
   let eggs = [
-	{ "name": "Basic Egg", "type": "*"},
+	{ "name": "Basic Egg", "type": "non-legendary"},
 	{ "name": "Ultima Egg", "type": "*"},
 	{ "name": "Event-Only Random Egg", "type": "event"},
 	{ "name": "Type Egg (Bug)", "type": "bug"},
@@ -1231,17 +1231,20 @@ let pokemon = [
 	{
 		"id": 144,
 		"name": "Articuno",
-		"types": ["ice", "flying"]
+		"types": ["ice", "flying"],
+		"isLegendary": true
 	},
 	{
 		"id": 145,
 		"name": "Zapdos",
-		"types": ["electric", "flying"]
+		"types": ["electric", "flying"],
+		"isLegendary": true
 	},
 	{
 		"id": 146,
 		"name": "Moltres",
-		"types": ["fire", "flying"]
+		"types": ["fire", "flying"],
+		"isLegendary": true
 	},
 	{
 		"id": 147,
@@ -1264,6 +1267,7 @@ let pokemon = [
 		"id": 150,
 		"name": "Mewtwo",
 		"types": ["psychic"],
+		"isLegendary": true,
 		"forms": [
 			{
 				"name": "Mewtwo",
@@ -1286,7 +1290,8 @@ let pokemon = [
 	{
 		"id": 151,
 		"name": "Mew",
-		"types": ["psychic"]
+		"types": ["psychic"],
+		"isLegendary": true
 	},
 	{
 		"id": 152,
@@ -1991,17 +1996,20 @@ let pokemon = [
 	{
 		"id": 243,
 		"name": "Raikou",
-		"types": ["electric"]
+		"types": ["electric"],
+		"isLegendary": true
 	},
 	{
 		"id": 244,
 		"name": "Entei",
-		"types": ["fire"]
+		"types": ["fire"],
+		"isLegendary": true
 	},
 	{
 		"id": 245,
 		"name": "Suicune",
-		"types": ["water"]
+		"types": ["water"],
+		"isLegendary": true
 	},
 	{
 		"id": 246,
@@ -2035,17 +2043,20 @@ let pokemon = [
 	{
 		"id": 249,
 		"name": "Lugia",
-		"types": ["psychic", "flying"]
+		"types": ["psychic", "flying"],
+		"isLegendary": true
 	},
 	{
 		"id": 250,
 		"name": "Ho-oh",
-		"types": ["fire", "flying"]
+		"types": ["fire", "flying"],
+		"isLegendary": true
 	},
 	{
 		"id": 251,
 		"name": "Celebi",
-		"types": ["psychic", "grass"]
+		"types": ["psychic", "grass"],
+		"isLegendary": true
 	},
 	{
 		"id": 252,
@@ -2962,22 +2973,26 @@ let pokemon = [
 	{
 		"id": 377,
 		"name": "Regirock",
-		"types": ["rock"]
+		"types": ["rock"],
+		"isLegendary": true
 	},
 	{
 		"id": 378,
 		"name": "Regice",
-		"types": ["ice"]
+		"types": ["ice"],
+		"isLegendary": true
 	},
 	{
 		"id": 379,
 		"name": "Registeel",
-		"types": ["steel"]
+		"types": ["steel"],
+		"isLegendary": true
 	},
 	{
 		"id": 380,
 		"name": "Latias",
 		"types": ["dragon", "psychic"],
+		"isLegendary": true,
 		"forms": [
 			{
 				"name": "Latias",
@@ -2995,6 +3010,7 @@ let pokemon = [
 		"id": 381,
 		"name": "Latios",
 		"types": ["dragon", "psychic"],
+		"isLegendary": true,
 		"forms": [
 			{
 				"name": "Latios",
@@ -3012,6 +3028,7 @@ let pokemon = [
 		"id": 382,
 		"name": "Kyogre",
 		"types": ["water"],
+		"isLegendary": true,
 		"forms": [
 			{
 				"name": "Kyogre",
@@ -3028,6 +3045,7 @@ let pokemon = [
 		"id": 383,
 		"name": "Groudon",
 		"types": ["ground"],
+		"isLegendary": true,
 		"forms": [
 			{
 				"name": "Groudon",
@@ -3044,6 +3062,7 @@ let pokemon = [
 		"id": 384,
 		"name": "Rayquaza",
 		"types": ["dragon", "flying"],
+		"isLegendary": true,
 		"forms": [
 			{
 				"name": "Rayquaza",
@@ -3767,42 +3786,50 @@ let pokemon = [
 	{
 		"id": 480,
 		"name": "Uxie",
-		"types": ["psychic"]
+		"types": ["psychic"],
+		"isLegendary": true
 	},
 	{
 		"id": 481,
 		"name": "Mesprit",
-		"types": ["psychic"]
+		"types": ["psychic"],
+		"isLegendary": true
 	},
 	{
 		"id": 482,
 		"name": "Azelf",
-		"types": ["psychic"]
+		"types": ["psychic"],
+		"isLegendary": true
 	},
 	{
 		"id": 483,
 		"name": "Dialga",
-		"types": ["steel", "dragon"]
+		"types": ["steel", "dragon"],
+		"isLegendary": true
 	},
 	{
 		"id": 484,
 		"name": "Palkia",
-		"types": ["water", "dragon"]
+		"types": ["water", "dragon"],
+		"isLegendary": true
 	},
 	{
 		"id": 485,
 		"name": "Heatran",
-		"types": ["fire", "steel"]
+		"types": ["fire", "steel"],
+		"isLegendary": true
 	},
 	{
 		"id": 486,
 		"name": "Regigigas",
-		"types": ["normal"]
+		"types": ["normal"],
+		"isLegendary": true
 	},
 	{
 		"id": 487,
 		"name": "Giratina",
 		"types": ["ghost", "dragon"],
+		"isLegendary": true,
 		"forms": [
 			{
 				"name": "Giratina",
@@ -3818,7 +3845,8 @@ let pokemon = [
 	{
 		"id": 488,
 		"name": "Cresselia",
-		"types": ["psychic"]
+		"types": ["psychic"],
+		"isLegendary": true
 	},
 	{
 		"id": 489,
@@ -4838,22 +4866,26 @@ let pokemon = [
 	{
 		"id": 638,
 		"name": "Cobalion",
-		"types": ["steel", "fighting"]
+		"types": ["steel", "fighting"],
+		"isLegendary": true
 	},
 	{
 		"id": 639,
 		"name": "Terrakion",
-		"types": ["rock", "fighting"]
+		"types": ["rock", "fighting"],
+		"isLegendary": true
 	},
 	{
 		"id": 640,
 		"name": "Virizion",
-		"types": ["grass", "fighting"]
+		"types": ["grass", "fighting"],
+		"isLegendary": true
 	},
 	{
 		"id": 641,
 		"name": "Tornadus",
 		"types": ["flying"],
+		"isLegendary": true,
 		"forms": [
 			{
 				"name": "Tornadus",
@@ -4870,6 +4902,7 @@ let pokemon = [
 		"id": 642,
 		"name": "Thundurus",
 		"types": ["electric", "flying"],
+		"isLegendary": true,
 		"forms": [
 			{
 				"name": "Thundurus",
@@ -4885,17 +4918,20 @@ let pokemon = [
 	{
 		"id": 643,
 		"name": "Reshiram",
-		"types": ["dragon", "fire"]
+		"types": ["dragon", "fire"],
+		"isLegendary": true
 	},
 	{
 		"id": 644,
 		"name": "Zekrom",
-		"types": ["dragon", "electric"]
+		"types": ["dragon", "electric"],
+		"isLegendary": true
 	},
 	{
 		"id": 645,
 		"name": "Landorus",
 		"types": ["ground", "flying"],
+		"isLegendary": true,
 		"forms": [
 			{
 				"name": "Landorus",
@@ -4912,6 +4948,7 @@ let pokemon = [
 		"id": 646,
 		"name": "Kyurem",
 		"types": ["dragon", "ice"],
+		"isLegendary": true,
 		"forms": [
 			{
 				"name": "Kyurem",
@@ -5635,17 +5672,20 @@ let pokemon = [
 	{
 		"id": 716,
 		"name": "Xerneas",
-		"types": ["fairy"]
+		"types": ["fairy"],
+		"isLegendary": true
 	},
 	{
 		"id": 717,
 		"name": "Yveltal",
-		"types": ["dark", "flying"]
+		"types": ["dark", "flying"],
+		"isLegendary": true
 	},
 	{
 		"id": 718,
 		"name": "Zygarde",
 		"types": ["dragon", "ground"],
+		"isLegendary": true,
 		"forms": [
 			{
 				"name": "Zygarde Complete",
@@ -6031,12 +6071,14 @@ let pokemon = [
 		"id": 772,
 		"name": "Type: Null",
 		"isNfe": true,
-		"types": ["normal"]
+		"types": ["normal"],
+		"isLegendary": true
 	},
 	{
 		"id": 773,
 		"name": "Silvally",
 		"types": ["normal"],
+		"isLegendary": true,
 		"forms": [
 			{
 				"name": "Silvally",
@@ -6232,44 +6274,52 @@ let pokemon = [
 	{
 		"id": 785,
 		"name": "Tapu Koko",
-		"types": ["electric", "fairy"]
+		"types": ["electric", "fairy"],
+		"isLegendary": true
 	},
 	{
 		"id": 786,
 		"name": "Tapu Lele",
-		"types": ["psychic", "fairy"]
+		"types": ["psychic", "fairy"],
+		"isLegendary": true
 	},
 	{
 		"id": 787,
 		"name": "Tapu Bulu",
-		"types": ["grass", "fairy"]
+		"types": ["grass", "fairy"],
+		"isLegendary": true
 	},
 	{
 		"id": 788,
 		"name": "Tapu Fini",
-		"types": ["water", "fairy"]
+		"types": ["water", "fairy"],
+		"isLegendary": true
 	},
 	{
 		"id": 789,
 		"name": "Cosmog",
 		"isNfe": true,
-		"types": ["psychic"]
+		"types": ["psychic"],
+		"isLegendary": true
 	},
 	{
 		"id": 790,
 		"name": "Cosmoem",
 		"isNfe": true,
-		"types": ["psychic"]
+		"types": ["psychic"],
+		"isLegendary": true
 	},
 	{
 		"id": 791,
 		"name": "Solgaleo",
-		"types": ["psychic", "steel"]
+		"types": ["psychic", "steel"],
+		"isLegendary": true
 	},
 	{
 		"id": 792,
 		"name": "Lunala",
-		"types": ["psychic", "ghost"]
+		"types": ["psychic", "ghost"],
+		"isLegendary": true
 	},
 	{
 		"id": 793,
@@ -6310,6 +6360,7 @@ let pokemon = [
 		"id": 800,
 		"name": "Necrozma",
 		"types": ["psychic"],
+		"isLegendary": true,
 		"forms": [
 			{
 				"name": "Necrozma",
@@ -6340,7 +6391,8 @@ let pokemon = [
 	{
 		"id": 802,
 		"name": "Marshadow",
-		"types": ["fighting", "ghost"]
+		"types": ["fighting", "ghost"],
+		"isLegendary": true
 	},
 	{
 		"id": 803,
@@ -6366,7 +6418,8 @@ let pokemon = [
 	{
 		"id": 807,
 		"name": "Zeraora",
-		"types": ["electric"]
+		"types": ["electric"],
+		"isLegendary": true
 	},
 	{
 		"id": 808,
@@ -6394,6 +6447,12 @@ pokemon.forEach(function (entry, index) {
 		typeMapping['*'].push(index);
 	} else {
 		typeMapping['*'] = [index];
+	}
+
+	if(typeMapping['non-legendary'] && !entry.isLegendary) {
+		typeMapping['non-legendary'].push(index);
+	} else {
+		typeMapping['nonlegendary'] = [index];
 	}
 });
 </script>
