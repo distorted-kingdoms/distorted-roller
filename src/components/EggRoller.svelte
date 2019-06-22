@@ -25,16 +25,33 @@
   
   let type;
   let amount = 1;
-  let selectedPokemon = [];
+  let eggSets = [];
   let typeMapping = [];
 
   function generateEggs() {
-	selectedPokemon = [];
+	eggSets = [];
 
 	for (var i = 0; i < amount; i++) {
-		var types = typeMapping[type];
-		var typeIndex = types[Math.floor(Math.random()*types.length)]
-		selectedPokemon = [...selectedPokemon, pokemon[typeIndex]];
+		var pokemonChosen = [];
+		var pokemonToReturn = 6;
+
+		while(pokemonToReturn > 0) {
+			var types = typeMapping[type];
+			var typeIndex = types[Math.floor(Math.random()*types.length)];
+
+			if(typeIndex.length > pokemonToReturn) {
+				pokemonToReturn--;
+				continue;
+			}
+
+			if(!pokemonChosen.includes[pokemon[typeIndex].name]) {
+				pokemonChosen.push(pokemon[typeIndex].name);
+				pokemonToReturn--;
+				continue;
+			}
+		}
+
+		eggSets = [...eggSets, pokemonChosen.join(', ')];
 	}
   }
 
@@ -6464,33 +6481,24 @@ pokemon.forEach(function (entry, index) {
 <style>
 fieldset {
   border: 1px solid;
-  width: 600px;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
   text-align: center;
 }
 
 fieldset label {
-  float: left;
-  width: 200px;
   text-align: center;
   padding: 5px;
 }
 
-fieldset input {
-  width: 300px;
-}
-
 fieldset button {
-  width: 300px;
+  width: 50%;
 }
 
-fieldset select {
-  width: 300px;
-}
 </style>
 
-<div class="form-like">
+<form on:submit|preventDefault={generateEggs}>
   <fieldset>
     <!-- Egg Type-->
     <label for="egg-type">Egg Type</label>
@@ -6499,16 +6507,20 @@ fieldset select {
         <option value="{egg.type}">{egg.name}</option>
       {/each}
     </select>
+	<br/>
 
     <!-- Egg Amount -->
     <label for="egg-amount">Egg Amount</label>
     <input type="number" bind:value={amount} />
-    <button class="button" on:click={generateEggs}>Generate</button>
+	<br/>
+    <button class="button">Generate</button>
   </fieldset>
-</div>
+</form>
 
-{#if selectedPokemon.length > 0}
-	{#each selectedPokemon as pokemon}
-	<li>{pokemon.name}</li>
+{#if eggSets.length > 0}
+<ol>
+	{#each eggSets as eggSet}
+	<li>{eggSet}</li>
 	{/each}
+</ol>
 {/if}
