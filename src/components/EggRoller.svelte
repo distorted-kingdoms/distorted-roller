@@ -883,7 +883,6 @@ let pokemon = [
 			},
 			{
 				"name": "Gengar Mega",
-				"isUber": true,
 				"types": ["ghost", "poison"],
 				"spriteSuffix": "mega",
 				"isMega": true
@@ -1035,7 +1034,6 @@ let pokemon = [
 			},
 			{
 				"name": "Kangaskhan Mega",
-				"isUber": true,
 				"types": ["normal"],
 				"spriteSuffix": "mega",
 				"isMega": true
@@ -1265,24 +1263,20 @@ let pokemon = [
 	{
 		"id": 150,
 		"name": "Mewtwo",
-		"isUber": true,
 		"types": ["psychic"],
 		"forms": [
 			{
 				"name": "Mewtwo",
-				"isUber": true,
 				"types": ["psychic"]
 			},
 			{
 				"name": "Mewtwo Mega X",
-				"isUber": true,
 				"types": ["psychic", "fighting"],
 				"spriteSuffix": "mega-x",
 				"isMega": true
 			},
 			{
 				"name": "Mewtwo Mega Y",
-				"isUber": true,
 				"types": ["psychic"],
 				"spriteSuffix": "mega-y",
 				"isMega": true
@@ -2041,13 +2035,11 @@ let pokemon = [
 	{
 		"id": 249,
 		"name": "Lugia",
-		"isUber": true,
 		"types": ["psychic", "flying"]
 	},
 	{
 		"id": 250,
 		"name": "Ho-oh",
-		"isUber": true,
 		"types": ["fire", "flying"]
 	},
 	{
@@ -2099,17 +2091,14 @@ let pokemon = [
 	{
 		"id": 257,
 		"name": "Blaziken",
-		"isUber": true,
 		"types": ["fire", "fighting"],
 		"forms": [
 			{
 				"name": "Blaziken",
-				"isUber": true,
 				"types": ["fire", "fighting"]
 			},
 			{
 				"name": "Blaziken Mega",
-				"isUber": true,
 				"types": ["fire", "fighting"],
 				"spriteSuffix": "mega",
 				"isMega": true
@@ -2935,7 +2924,6 @@ let pokemon = [
 			},
 			{
 				"name": "Salamence Mega",
-				"isUber": true,
 				"types": ["dragon", "flying"],
 				"spriteSuffix": "mega",
 				"isMega": true
@@ -2965,7 +2953,6 @@ let pokemon = [
 			},
 			{
 				"name": "Metagross Mega",
-				"isUber": true,
 				"types": ["steel", "psychic"],
 				"spriteSuffix": "mega",
 				"isMega": true
@@ -3024,17 +3011,14 @@ let pokemon = [
 	{
 		"id": 382,
 		"name": "Kyogre",
-		"isUber": true,
 		"types": ["water"],
 		"forms": [
 			{
 				"name": "Kyogre",
-				"isUber": true,
 				"types": ["water"]
 			},
 			{
 				"name": "Kyogre Primal",
-				"isUber": true,
 				"types": ["water"],
 				"spriteSuffix": "primal"
 			}
@@ -3043,17 +3027,14 @@ let pokemon = [
 	{
 		"id": 383,
 		"name": "Groudon",
-		"isUber": true,
 		"types": ["ground"],
 		"forms": [
 			{
 				"name": "Groudon",
-				"isUber": true,
 				"types": ["ground"]
 			},
 			{
 				"name": "Groudon Primal",
-				"isUber": true,
 				"types": ["ground", "fire"],
 				"spriteSuffix": "primal"
 			}
@@ -3062,17 +3043,14 @@ let pokemon = [
 	{
 		"id": 384,
 		"name": "Rayquaza",
-		"isUber": true,
 		"types": ["dragon", "flying"],
 		"forms": [
 			{
 				"name": "Rayquaza",
-				"isUber": true,
 				"types": ["dragon", "flying"]
 			},
 			{
 				"name": "Rayquaza Mega",
-				"isUber": true,
 				"types": ["dragon", "flying"],
 				"spriteSuffix": "mega",
 				"isMega": true
@@ -3087,29 +3065,24 @@ let pokemon = [
 	{
 		"id": 386,
 		"name": "Deoxys",
-		"isUber": true,
 		"types": ["psychic"],
 		"forms": [
 			{
 				"name": "Deoxys",
-				"isUber": true,
 				"types": ["psychic"]
 			},
 			{
 				"name": "Deoxys Attack",
-				"isUber": true,
 				"types": ["psychic"],
 				"spriteSuffix": "attack"
 			},
 			{
 				"name": "Deoxys Defense",
-				"isUber": true,
 				"types": ["psychic"],
 				"spriteSuffix": "defense"
 			},
 			{
 				"name": "Deoxys Speed",
-				"isUber": true,
 				"types": ["psychic"],
 				"spriteSuffix": "speed"
 			}
@@ -3558,7 +3531,6 @@ let pokemon = [
 			},
 			{
 				"name": "Lucario Mega",
-				"isUber": true,
 				"types": ["fighting", "steel"],
 				"spriteSuffix": "mega",
 				"isMega": true
@@ -3810,13 +3782,11 @@ let pokemon = [
 	{
 		"id": 483,
 		"name": "Dialga",
-		"isUber": true,
 		"types": ["steel", "dragon"]
 	},
 	{
 		"id": 484,
 		"name": "Palkia",
-		"isUber": true,
 		"types": ["water", "dragon"]
 	},
 	{
@@ -3832,17 +3802,14 @@ let pokemon = [
 	{
 		"id": 487,
 		"name": "Giratina",
-		"isUber": true,
 		"types": ["ghost", "dragon"],
 		"forms": [
 			{
 				"name": "Giratina",
-				"isUber": true,
 				"types": ["ghost", "dragon"]
 			},
 			{
 				"name": "Giratina Origin",
-				"isUber": true,
 				"types": ["ghost", "dragon"],
 				"spriteSuffix": "origin"
 			}
@@ -3867,7 +3834,6 @@ let pokemon = [
 	{
 		"id": 491,
 		"name": "Darkrai",
-		"isUber": true,
 		"types": ["dark"]
 	},
 	{
@@ -3881,7 +3847,6 @@ let pokemon = [
 			},
 			{
 				"name": "Shaymin Sky",
-				"isUber": true,
 				"types": ["grass", "flying"],
 				"spriteSuffix": "sky"
 			}
@@ -3890,113 +3855,94 @@ let pokemon = [
 	{
 		"id": 493,
 		"name": "Arceus",
-		"isUber": true,
 		"types": ["normal"],
 		"forms": [
 			{
 				"name": "Arceus",
-				"isUber": true,
 				"types": ["normal"]
 			},
 			{
 				"name": "Arceus",
-				"isUber": true,
 				"types": ["bug"],
 				"spriteSuffix": "bug"
 			},
 			{
 				"name": "Arceus",
-				"isUber": true,
 				"types": ["dark"],
 				"spriteSuffix": "dark"
 			},
 			{
 				"name": "Arceus",
-				"isUber": true,
 				"types": ["dragon"],
 				"spriteSuffix": "dragon"
 			},
 			{
 				"name": "Arceus",
-				"isUber": true,
 				"types": ["electric"],
 				"spriteSuffix": "electric"
 			},
 			{
 				"name": "Arceus",
-				"isUber": true,
 				"types": ["fairy"],
 				"spriteSuffix": "fairy"
 			},
 			{
 				"name": "Arceus",
-				"isUber": true,
 				"types": ["fighting"],
 				"spriteSuffix": "fighting"
 			},
 			{
 				"name": "Arceus",
-				"isUber": true,
 				"types": ["fire"],
 				"spriteSuffix": "fire"
 			},
 			{
 				"name": "Arceus",
-				"isUber": true,
 				"types": ["flying"],
 				"spriteSuffix": "flying"
 			},
 			{
 				"name": "Arceus",
-				"isUber": true,
 				"types": ["ghost"],
 				"spriteSuffix": "ghost"
 			},
 			{
 				"name": "Arceus",
-				"isUber": true,
 				"types": ["grass"],
 				"spriteSuffix": "grass"
 			},
 			{
 				"name": "Arceus",
-				"isUber": true,
 				"types": ["ground"],
 				"spriteSuffix": "ground"
 			},
 			{
 				"name": "Arceus",
-				"isUber": true,
 				"types": ["ice"],
 				"spriteSuffix": "ice"
 			},
 			{
 				"name": "Arceus",
-				"isUber": true,
 				"types": ["poison"],
 				"spriteSuffix": "poison"
 			},
 			{
 				"name": "Arceus",
-				"isUber": true,
 				"types": ["psychic"],
 				"spriteSuffix": "psychic"
 			},
 			{
 				"name": "Arceus",
-				"isUber": true,
 				"types": ["rock"],
 				"spriteSuffix": "rock"
 			},
 			{
 				"name": "Arceus",
-				"isUber": true,
 				"types": ["steel"],
 				"spriteSuffix": "steel"
 			},
 			{
 				"name": "Arceus",
-				"isUber": true,
 				"types": ["water"],
 				"spriteSuffix": "water"
 			}
@@ -4939,24 +4885,20 @@ let pokemon = [
 	{
 		"id": 643,
 		"name": "Reshiram",
-		"isUber": true,
 		"types": ["dragon", "fire"]
 	},
 	{
 		"id": 644,
 		"name": "Zekrom",
-		"isUber": true,
 		"types": ["dragon", "electric"]
 	},
 	{
 		"id": 645,
 		"name": "Landorus",
-		"isUber": true,
 		"types": ["ground", "flying"],
 		"forms": [
 			{
 				"name": "Landorus",
-				"isUber": true,
 				"types": ["ground", "flying"]
 			},
 			{
@@ -4982,7 +4924,6 @@ let pokemon = [
 			},
 			{
 				"name": "Kyurem White",
-				"isUber": true,
 				"types": ["dragon", "ice"],
 				"spriteSuffix": "white"
 			}
@@ -5023,35 +4964,29 @@ let pokemon = [
 	{
 		"id": 649,
 		"name": "Genesect",
-		"isUber": true,
 		"types": ["bug", "steel"],
 		"forms": [
 			{
 				"name": "Genesect",
-				"isUber": true,
 				"types": ["bug", "steel"]
 			},
 			{
 				"name": "Genesect",
-				"isUber": true,
 				"types": ["bug", "steel"],
 				"spriteSuffix": "burn"
 			},
 			{
 				"name": "Genesect",
-				"isUber": true,
 				"types": ["bug", "steel"],
 				"spriteSuffix": "chill"
 			},
 			{
 				"name": "Genesect",
-				"isUber": true,
 				"types": ["bug", "steel"],
 				"spriteSuffix": "douse"
 			},
 			{
 				"name": "Genesect",
-				"isUber": true,
 				"types": ["bug", "steel"],
 				"spriteSuffix": "shock"
 			}
@@ -5462,17 +5397,14 @@ let pokemon = [
 	{
 		"id": 681,
 		"name": "Aegislash",
-		"isUber": true,
 		"types": ["steel", "ghost"],
 		"forms": [
 			{
 				"name": "Aegislash",
-				"isUber": true,
 				"types": ["steel", "ghost"]
 			},
 			{
 				"name": "Aegislash",
-				"isUber": true,
 				"types": ["steel", "ghost"],
 				"spriteSuffix": "blade"
 			}
@@ -5703,13 +5635,11 @@ let pokemon = [
 	{
 		"id": 716,
 		"name": "Xerneas",
-		"isUber": true,
 		"types": ["fairy"]
 	},
 	{
 		"id": 717,
 		"name": "Yveltal",
-		"isUber": true,
 		"types": ["dark", "flying"]
 	},
 	{
@@ -5719,7 +5649,6 @@ let pokemon = [
 		"forms": [
 			{
 				"name": "Zygarde Complete",
-				"isUber": true,
 				"types": ["dragon", "ground"],
 				"spriteSuffix": "complete"
 			},
@@ -6335,13 +6264,11 @@ let pokemon = [
 	{
 		"id": 791,
 		"name": "Solgaleo",
-		"isUber": true,
 		"types": ["psychic", "steel"]
 	},
 	{
 		"id": 792,
 		"name": "Lunala",
-		"isUber": true,
 		"types": ["psychic", "ghost"]
 	},
 	{
@@ -6357,7 +6284,6 @@ let pokemon = [
 	{
 		"id": 795,
 		"name": "Pheromosa",
-		"isUber": true,
 		"types": ["bug", "fighting"]
 	},
 	{
@@ -6391,19 +6317,16 @@ let pokemon = [
 			},
 			{
 				"name": "Dawn Wings Necrozma",
-				"isUber": true,
 				"types": ["psychic", "ghost"],
 				"spriteSuffix": "dawnwings"
 			},
 			{
 				"name": "Dusk Mane Necrozma",
-				"isUber": true,
 				"types": ["psychic", "steel"],
 				"spriteSuffix": "duskmane"
 			},
 			{
 				"name": "Ultra Necrozma",
-				"isUber": true,
 				"types": ["psychic", "dragon"],
 				"spriteSuffix": "ultra"
 			}
@@ -6417,7 +6340,6 @@ let pokemon = [
 	{
 		"id": 802,
 		"name": "Marshadow",
-		"isUber": true,
 		"types": ["fighting", "ghost"]
 	},
 	{
@@ -6429,7 +6351,6 @@ let pokemon = [
 	{
 		"id": 804,
 		"name": "Naganadel",
-		"isUber": true,
 		"types": ["poison", "dragon"]
 	},
 	{
