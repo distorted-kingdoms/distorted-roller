@@ -27,6 +27,9 @@
   let amount = 1;
   let eggSets = [];
   let typeMapping = [];
+  typeMapping['*'] = [];
+  typeMapping['non-legendary'] = [];
+  typeMapping['event'] = [];
 
   function generateEggs() {
 	eggSets = [];
@@ -6443,16 +6446,14 @@ pokemon.forEach(function (entry, index) {
 		}
 	});	
 
-	if(typeMapping['*']) {
-		typeMapping['*'].push(index);
-	} else {
-		typeMapping['*'] = [index];
+	typeMapping['*'].push(index);
+
+	if(!entry.isLegendary) {
+		typeMapping['non-legendary'].push(index);
 	}
 
-	if(typeMapping['non-legendary'] && !entry.isLegendary) {
-		typeMapping['non-legendary'].push(index);
-	} else {
-		typeMapping['nonlegendary'] = [index];
+	if(entry.isEvent) {
+		typeMapping['event'].push(index);
 	}
 });
 </script>
