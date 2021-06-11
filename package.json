@@ -1,9 +1,9 @@
 {
-  "name": "~TODO~",
-  "version": "0.0.1",
+  "name": "DistortedRoller",
+  "version": "1.2.0",
   "scripts": {
     "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
+    "build": "svelte-kit build && touch build/.nojekyll",
     "preview": "svelte-kit preview",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --write --plugin-search-dir=. ."
